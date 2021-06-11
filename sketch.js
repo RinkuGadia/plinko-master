@@ -98,7 +98,7 @@ function draw() {
               else if (ball.body.position.x < 900 && ball.body.position.x > 601 )
               {
                     score = score + 200;
-                    ball=null;
+                  //  ball=null;
                     if ( count>= 5)  gameState ="end";
 
               }      
